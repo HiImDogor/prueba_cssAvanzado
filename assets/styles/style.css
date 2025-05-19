@@ -1,4 +1,3 @@
-/* Reset general */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,7 +18,6 @@ body {
   color: #333;
 }
 
-/* Encabezado para móviles */
 .mobile-header {
   display: none;
   background: #8b3e2f;
@@ -39,7 +37,6 @@ body {
   cursor: pointer;
 }
 
-/* Menú lateral */
 .sidebar {
   width: 220px;
   min-height: 100vh;
@@ -75,12 +72,10 @@ body {
   font-weight: bold;
 }
 
-/* Layout principal */
 .layout {
   display: flex;
   flex: 1;
   flex-direction: row;
-  min-height: calc(100vh - 80px);
 }
 
 .main-content {
@@ -155,7 +150,6 @@ body {
   display: block;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .layout {
     flex-direction: column;
